@@ -1,0 +1,59 @@
+4.
+$ mkdir SI_2023_lab1_213237
+$ cd SI_2023_lab1_213237
+$ git init
+-Креирано локално репо во директориумот SI_2023_lab1_213237 креиран локално на мојот личен 
+лаптоп
+5. 
+$ git remote add origin https://github.com/simonatrajko/SI_2023_lab1_213237.git
+$ git remote -v
+https://github.com/simonatrajko/SI_2023_lab1_213237.git
+origin	https://github.com/simonatrajko/SI_2023_lab1_213237.git (fetch)
+origin	https://github.com/simonatrajko/SI_2023_lab1_213237.git (push)
+6.
+$ git add README.md
+$ echo "Simona Trajko 213237" > README.md
+$ git add README.md
+$ git commit -m "Initial commit"
+7.
+Kreirav vo intelliJ nov proekt po ime SILab1
+$cd src 
+za da vlezam vo proektot i da pristapam do SILab1.java
+$ git add SILab1.java
+potoa go vadam SILab1.java od papka  ja brisam src papkata za da ostane samo java file-ot
+8. $ git push origin master
+9.$git branch bug1
+$git branch bug2
+$git branch bug3
+10.git checkout bug3
+11. sudo nano SILab1.java // otvaranje na datotekata promena na greskata i sega SILab1.java 
+e modified so sto znaci treba 
+$git add SILab1.java
+$git commit -m "Fix wrong loop for reading"
+12.$git checkout bug2
+13.sudo nano SILab1.java
+$ git add SIlab1.java
+$git commit -m "Fix wrong condition in filterOddNumbers"
+14.$ git checkout bug3
+15.sudo nano SILab1.java
+$ git add SIlab1.java
+$git commit -m "Fix method sumEvenNumbers"
+16. $ git push origin bug1 bug2 bug3
+17.$ git checkout master
+18.$ git merge bug1
+19. $ git push origin master 
+20.$ git merge bug2
+21. $ git push origin master 
+22.$ git checkout bug3
+23.$ git rebase master
+24.$ git checkout master 
+25.$ git merge bug3
+26.$ git push origin master
+27.$sudo nano logs.txt
+sega momentalno logs e untracked
+$ git add logs.txt // stavi ho na scema
+$ sudo nano 213237.txt//kreiram nova txt datoteka
+$ git add 213237.txt
+$ git commit -m "Final commit"
+28.$ git push origin master
+

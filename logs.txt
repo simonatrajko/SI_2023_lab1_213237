@@ -1,0 +1,46 @@
+commit 5425be52b8b56f985200a97d56334fec141673f1 (HEAD -> master, origin/master, bug3)
+Merge: 9e9a4b9 92ad19d b940e36
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Thu Apr 6 20:35:00 2023 +0200
+
+    conficts
+
+commit b940e36ab501959bd03639afdfa4fd35c2de20f9 (origin/bug3)
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Thu Apr 6 20:21:11 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit 92ad19dc412092bdff836d5df8e7355a8ea7589c (origin/bug2, bug2)
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Thu Apr 6 20:12:47 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 9e9a4b9aef167a619e377d84738ea9c14ba540ee (origin/bug1, bug1)
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Thu Apr 6 20:02:11 2023 +0200
+
+     Fix wrong loop for reading
+
+commit 8d196bc8151806c10c5c440d5757de0f0991fa36
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Mon Apr 3 15:20:37 2023 +0200
+
+    changes
+
+commit a8acb4c2c353492a7b20ca8677bdc7d92321e4cf
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Mon Apr 3 15:14:15 2023 +0200
+
+    Add java class
+
+commit 52be50bf0f8bf2aa991490a68a82a554c62e4957
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Mon Apr 3 14:50:51 2023 +0200
+
+    Add java class
+
+commit 18ecd6b15983f6cfa63dffdd3da3d4850caa4ecb
+Author: simonatrajko <simona.trajko@students.finki.ukim.mk>
+Date:   Mon Apr 3 14:27:02 2023 +0200
